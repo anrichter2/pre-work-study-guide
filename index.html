@@ -11,13 +11,20 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>    
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
+          <li>HTML: Hypertext Markup Language.</li>
           <li>The head element contains information about the webpage.</li>
           <li>The body element represents the visible content shown to the user.</li>
+          <li>!DOCTYPE: tells the browser what document type to expect.</li>
+          <li>lang="": HTML attribute used to tell the browser the language of the page. Attributes define additional information about an element.</li>
+          <li>Metadata: data about a webpage that the browser uses to effectively serve the webpage to users.</li>
+          <li>Opening Tag and Closing Tag: content for visible HTML elements are placed between them. Opening tag represented by a tag name surrounded by angle brackets. Closed tag is the same thing but with a forward slash before the tag name.</li>
+          <li>ul,ol, and li: elements representing unordered lists, ordered lists, and list items.</li>
         </ul>
       </section>
 
@@ -38,15 +45,40 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git status: checks what branch we are currently on.</li>
+          <li>git checkout -b branch-name: creates a new branch and switches to it.</li>
+          <li>git checkout main: switches current branch to the main branch.</li>
+          <li>git pull origin main: pulls the remote main branch from github into my local main branch on my computer. Always use before sending a branch to be merged to main branch.</li>
+          <li>Git add -A: stages changes made in locale branch that is being worked on.</li>
+          <li>git commit -m: git commit commits the changes made to the local branch being worked on. -m adds a message about what is being committed.</li>
+          <li>git push origin branch-name: pushes up changes made in the local branch to the remote repository on Github.</li>
+          <li>cd folder name: navigate you forward in git bash to the folder specified.</li>
+          <li>cd ..: navigates you in git bash backwards one folder.</li>
+          <li>code .: used to open VS code for the current directory git bash is using.</li>
+          <li>touch folder name: used to create new file in the folder of the directory git bash is currently using.</li>
         </ul>
       </section>
 
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Variables created by the keyword const are variables that are unchangable in the code.</li>
+          <li>Variables created by the keyword let are variables that can be changed in the code.</li>
+          <li>Array: A single variable used to hold a group of data.</li>
+          <li>X++: shortcut way of writing x+1.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>=: Assignment operator used to assign specific data to a variable.</li>
+          <li>===: Strict equality operator that checks if two values are equal and returns a Boolean result of either true or false.</li>
+          <li>console.log(): Method used to output a message to the web console.</li>
+          <li>The javaScript file is linked in the body element of HTML while CSS is lined in the head element of HTML.</li>
+          <li>To open Chrome DevTools either right click browser and click inspect or use CTRL+Shift+I.</li>
+          <li>If statement: Conditional statement that introduces decision-making into code.</li>
+          <li>For loop: Loop that uses a predictable pattern to perform a task multiple times when executed.</li>
+          <li>A function is a reusable block of code that performs a specific task when called.</li>
+          <li>Functions do not automatically execute when the javascript file is run but instead must be called by the functions unique name.</li>
+          <li>To create a function you use the function keyword followed by the functions unique name and then squiggle brackets for the functions task code.</li>
+          <li>A functions unique name is followed by parentheses().</li>
         </ul>
       </section>
     </main>
@@ -54,5 +86,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
